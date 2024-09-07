@@ -1,0 +1,116 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formManifest {
+    display: flex;
+    flex-direction: row; /* Change to row to create two columns */
+    justify-content: space-between; /* Space between the two columns */
+    width: 50vw; /* Adjust width to accommodate two columns */
+    margin-top: -20vh;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    width: 20vw; /* Each column takes half of the form width */
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%; /* Adjust to take full width of the column */
+    margin: 1vh 0;
+    align-items: left;
+}
+
+.formInput {
+    height: 4vh;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    color: #24459F;
+}
+
+.formSelect {
+    height: 4vh;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.formLabel {
+    width: 10vw; /* Adjust to take full width of the column */
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    margin-bottom: 1vw;
+    font-weight: 100;
+}
+
+.formDiv2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 20vw; /* Adjust to take full width of the column */
+    margin: 4vh 0;
+    align-items: left;
+}
+
+.manifestInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+}
+
+.submitButton{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #24459F;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 9vh;
+}
+
+.formDiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 20vw; /* Adjust to take full width of the column */
+    margin: 2vh 0;
+    align-items: left;
+}
+
+.formInputImg::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    border: none;
+    color:#24459F;
+    transition: background-color 200ms;
+  }
+  
+  /* file upload button hover state */
+.formInputImg::file-selector-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  /* file upload button active state */
+.formInputImg::file-selector-button:active {
+    background-color: #e5e7eb;
+  }

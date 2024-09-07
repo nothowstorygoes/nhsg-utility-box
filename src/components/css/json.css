@@ -1,0 +1,63 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin-top: -10vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.jsonInput {
+    resize: none; /* Disable resizing */
+    overflow: auto; /* Add scrollbar if content is too long */
+    width: 30vw;
+    height: 35vh;
+    padding: 3rem;
+    font-size: 16px;
+    padding: 0.5rem;
+    color: #24459F;
+    border-radius: 15px;
+    outline: none;
+  }
+  
+  .formattedJSON {
+    overflow: auto;
+    width: 30vw;
+    height: 35vh;
+    padding: 0.5rem;
+    font-family: "Inter", sans-serif;
+    color:#24459F;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .noJson{
+    padding-left: 0.8rem;
+  }
+
+.expandButton{
+    background-color: #24459F;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    margin-left: 10px;
+}
+
+.errorJson{
+    font-family: "Inter", sans-serif;
+    background-color: red;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
