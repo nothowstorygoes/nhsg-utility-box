@@ -1,0 +1,60 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden !important;
+}
+
+.utilityContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 60vw;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 1em;
+  transition: letter-spacing 0.5s ease;
+}
+
+.title:hover {
+  letter-spacing: 0.9rem;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top:0vh;
+  left: -25vw;
+  z-index: -1;
+}
+
+.bg2 {
+    width: 50vw;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+  }
+
+.subTitle {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 30vh;
+}
+
+
+
