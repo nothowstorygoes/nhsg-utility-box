@@ -56,5 +56,18 @@
   margin-bottom: 30vh;
 }
 
-
+.mobileMessage{
+  font-family: "Inter", sans-serif;
+  color:#24459F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  padding: 3vw;
+  text-align: center;
+  font-weight: 100;
+  border-radius: 15px;
+  margin: 10vh;
+  background-color: #fff;
+}
 
