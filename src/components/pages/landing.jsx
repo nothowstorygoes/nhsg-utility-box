@@ -3,8 +3,26 @@ import UtilityButton from "../utilitybutton";
 import "../css/landing.css";
 import Animated3DModel from "../animated3DModel";
 import GitAbsolute from "../gitAbsolute";
+import { useState, useEffect } from "react";
 import Footer from "../footer";
 export default function LandingPage() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    if (/android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      setIsMobile(true);
+    }
+  }, []);
+
+  if (isMobile) {
+    return (
+      <div className="mobileMessage">
+        <h1>Open the website on desktop</h1>
+      </div>
+    );
+  }
+
   return (
     <main className="mainContainer">
       <div className="bg">
