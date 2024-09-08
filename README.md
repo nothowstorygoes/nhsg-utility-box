@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# nothowstorygoes's utility box
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub package.json version](https://img.shields.io/github/package-json/v/nothowstorygoes/nhsg-utility-box)
 
-## Available Scripts
+A collection of my most used tools for web development, including a JSON visualizer, PNG to ICO converter, and Manifest generator. This project is built with React.js and hosted on Vercel.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **JSON Visualizer**: Quickly view, format, and analyze JSON data.
+- **PNG to ICO Converter**: Convert PNG images to ICO format for easy favicon creation.
+- **Manifest Generator**: Generate a `manifest.json` file for progressive web apps (PWAs).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: [React.js](https://reactjs.org/)
+- **Hosting**: [Vercel](https://vercel.com/)
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### JSON Visualizer
 
-### `npm run build`
+1. Paste your JSON data into the provided text area.
+2. Click on "Format JSON" to view it in a structured, readable format.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### PNG to ICO Converter
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Upload a PNG image.
+2. Click "Convert to ICO" and download the generated ICO file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Manifest Generator
 
-### `npm run eject`
+1. Enter your app’s details (name, icons, start URL, etc.).
+2. Click "Generate" to download the `manifest.json` file.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Please fork this repository and submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Make your changes and commit (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Create a new Pull Request
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
