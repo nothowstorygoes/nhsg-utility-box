@@ -15,23 +15,6 @@ A collection of my most used tools for web development, including a JSON visuali
 - **Frontend**: [React.js](https://reactjs.org/)
 - **Hosting**: [Vercel](https://vercel.com/)
 
-## How to Use
-
-### JSON Visualizer
-
-1. Paste your JSON data into the provided text area.
-2. Click on "Format JSON" to view it in a structured, readable format.
-
-### PNG to ICO Converter
-
-1. Upload a PNG image.
-2. Click "Convert to ICO" and download the generated ICO file.
-
-### Manifest Generator
-
-1. Enter your app’s details (name, icons, start URL, etc.).
-2. Click "Generate" to download the `manifest.json` file.
-
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request.
